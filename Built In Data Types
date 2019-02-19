@@ -1,0 +1,10 @@
+Data types-
+1. Integer(immutable)
+2. Float(immutable)
+3. String
+4. List(multiple values)([a,b,c,3,'i am alive'])
+5.Tuple(multiple data types)((a,b,c1,2,'abc'))(immutable)
+6.Dictionary({'name':'abc','email':'__________'})
+7.Sets({_______})
+8.Boolean(T/F)
+9.Complex(2+3j)
