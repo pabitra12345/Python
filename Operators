@@ -1,0 +1,29 @@
+################################
+ARITHMETIC OPERATORS
+################################
+
+1. Addition-+
+2. Subtraction- -
+3. Multiplication- *
+4. Division- /
+5. Floor Division- //(just integer part of division result)
+6. Mod- % (Remainder of division)
+7. Square- **
+
+
+#######################
+COMPARISON OPERATORS
+#######################
+
+>,<,<==,>==,==,!=
+
+Identity operators- is
+
+Assignment Operators- =,+=,-=,*=,/=
+
+Bitwise- &,|,^,<<,>>
+
+Logical- and or not
+
+Membership- in, not in
+
