@@ -1,0 +1,32 @@
+access
+concactenation
+split
+shape
+size
+ndim
+reshape
+change dimension
+utility function
+broadcasting
+
+np.zeros(())
+np.arrange
+np.logspace
+np.linspace
+np.random.rand(2,2,2)
+np.random.randint(0,10,size=(5,5))
+a[rownum,colnum]
+concatenate-by default vertical
+vstack
+hstack
+ndim
+shape
+size
+shape
+reshape
+
+
+Matheatical Functions- max, min, mean, std, cov, cumprod, all, any, mean, dot, multiply, sqrt
+
+
+broadcasting
