@@ -1,0 +1,76 @@
+Syllabus:
+series and dataframes
+loading csv and json
+connecting databases
+descriptive statistics
+accessing subsets of data- rows,columns, filters
+handling missing data
+dropping rows and columns
+handling duplicates
+map, apply,groupby, rolling, str
+merge,join, concatenate
+pivot tables
+noralizing json
+time series
+
+
+series:
+se1=pd.series(data=[_____],index=list('abcde'))
+
+Dataframe:
+pd.DataFrame(np.random.randint(1,10,size=(10,10)),index=list("ABCDEFIJ"),columns=list("abcdefij"))
+
+Reading csv,json:
+pd.read_csv- csvto dataframe
+data.info()
+data.describe()
+chunk size=1000, when data is too big and difficult to load
+read_json
+
+connecting databases:
+sqlite3.connect("________")
+pd.read_sql_query("SELECT ________")
+
+
+
+data.head()- top 5 rows
+data.tail()- top 5 columns
+data.describe()- Nuerical data description, ean, sd, iqr, max, numerical info
+data.salary.value_counts()
+data.rename(columns={____,____},inplace=True)
+data.columns()- return column names
+data.loc["row name"]-indexing via row
+data.iloc()- indexing via row number
+
+
+Handling missing data:
+data.isnull()
+data.notnull()
+data[data[].isnull()]
+data.drop([],axis=1,inplace=T)
+data.dropna.info()
+data.fillna({__:0,____:" "}).info()
+
+duplicates:
+data.duplicated()
+data[data.duplicated(subset=[" "," "])]
+
+
+Applying function:
+def func():
+if __==__:
+return ___
+else:
+return ____
+data.apply(func,axis=1)[:5]
+data.groupby()
+
+data1.merge(data2,on=,how=)
+
+
+Normalising json
+from pandas.io.json import json_normalise
+
+Time series:
+
+
