@@ -1,0 +1,79 @@
+Syllabus:
+Simple Linear Regression using OLS
+Gradient Descent Algorithm
+Regularized models-Ridge,Lasso,Elastic net
+Logistic Regression for classification
+Stochastic gradient descent and  passive aggrassive
+robust regression- dealing with outliers and model errors
+polynomial regression
+bias-variance tradeoff
+
+
+Linear Regression:
+Target(dependent) and feature(independent)
+Relation between target and feature represnted as 
+y=w0 + w1x +.....wnx
+
+from sklearn.linear_model import LinearRegression
+residual sum of sqaures
+gradient descent- to minimise rss
+
+Plots-
+import matpolotlib.pyplot as plt
+%atplotlib  inline
+
+from sklearn.datasets import make_regression
+X,Y= make_regression(n_features=1,noise=10,n_samples=1000)
+plt.xlabel('Feature-x')
+plt.ylabel(Target-y')
+plt.scatter(x,y,s=5)
+
+By default, model is defined to go through center of axis.
+Hyperparameters of linear regression:
+fit_intercept, normalization(unifority in data)
+
+Comon attributes-coef, intercept
+common functions- fit, predict
+
+Multiple Targets: multiple dimension
+
+
+Training Model:
+lr.fit
+lr.coef_
+lr.intercept
+
+Precition:
+pred=lr.predict(x)
+
+plt.scatter(x,y,s=5,label='training')
+plt.scatter(x,pred,s=5,label='training')
+plt.xlabel('Feature-x')
+plt.ylabel(Target-y')
+plt.legend()
+plt.show()
+
+
+Regularized regression methods:
+
+Ridge regression:
+imposes normality on coefficients and less impacted on outliers
+Alpha used in ridge impacts the slope/peak of model errors.
+
+
+Lasso:
+Reduces regressors predicting target
+lasso.coeff_
+
+Logistic Regression:
+regularizaton coeff
+sigmoid fucntion(0 &1)
+
+Stochastic gradient descent
+no of samples very large
+
+RANSAC,theisen, 
+POlynoial Regression
+fro sklearn.preprosessing import PolynoialFeatures
+Bias Variance
+
