@@ -1,0 +1,54 @@
+Standard Scaler:
+Normalizing(standard scale/same scale)
+df.plot.kde()
+from sklearn.preprocessing import StandardScaler
+standardscaler.fit
+standardscaler.transform
+standardscaler.fit_transform
+Limitation- error for not-normally distributed
+
+Minmax scaler:
+Most popular
+After processing, data between 0 and 1
+
+
+Robust Scaler:
+Good with outliers
+Finds out value with calculation fro IQR values
+
+
+Normalizer:
+from sklearn.preprocessing import Normalizer
+Equidistant points from center
+
+Binarization:
+Bernouli naive bayes distribution
+from sklearn.preprocessing import Binarizer
+
+Encoding categorical values:
+Ordinal-Ordered,categories/classes/grades(categories converted to nubers)
+Nominal-No order
+from sklearn.preprocessing import LbelEncoder,Onehotencoder
+
+
+Imputaton:
+Used to infer value of missing values from data
+
+Polynomial features-deriving non-linear relation between variables
+
+Custom transfer
+custommtransformer.transform()
+
+Countvectorizer-counting number of words and arranges in df
+
+tfidf vectorizer- data mininig
+
+vocubalary,ngram(used within mining functions for filtering/arranging data in df)
+
+skimage-data preprocessing for computer vision
+fro skimage.io import imread,imshow
+(pixel value1,pixel value2,rgb color)
+rgb2gray
+resize
+
+
