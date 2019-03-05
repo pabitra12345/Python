@@ -1,0 +1,11 @@
+Non parameteric supervised learning method
+based on CART
+Assumption- Feature and target are categorical
+CART- can be continuous
+Entropy-maximize information gain in each split
+Gini Impurity
+
+Information Gain:
+Gain of information/accuracy with each split
+Splitting dataset with each split having more information gain
+Calculationg gain for each attribute and comparing results for classification.
