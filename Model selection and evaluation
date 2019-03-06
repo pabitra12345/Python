@@ -1,0 +1,117 @@
+Cross validation
+Hyperparaeter tuning
+Model evaluation
+Model persistance
+Validation curves
+Learning curves
+
+
+Cross Validation:
+simple and complex models
+Variance, bias and total error
+Optimal bias and variance
+cross validation score
+ 
+ 
+Hyperparamter Tuning:
+models type(parametric and nonparamteric)
+best paramters 
+grid search and randomized search
+
+
+
+Model evaluation:
+Score
+cross validation score
+metrics- accuracy score
+confusion matrix
+precision score
+accuracy score
+recall score
+f1 score- avg of accuracy and recall
+
+
+Metrics of regression:
+mse
+mae-ean absolute error
+r squared
+
+Metrics of clustering:
+supervised-completeness, homogenity
+unsupervised-silhoute, calaniski
+
+
+
+Model Persistance:
+pickle joblib
+
+
+Validation curves:
+scoring function
+
+
+Learning curves:
+
+
+
+Feature seelction:
+improve estiators accuracy
+boost performance of high diensional datasets
+
+Variance Threshold:
+variance below configured level
+intuition 
+labelencoder-discrete to continuous
+
+Chi-square:
+feature-boolean/count
+target-discrete
+
+
+ANOVA:
+feature-continuous
+target-discrete
+variation acrosscoluns wrt all columns
+
+
+Univariate regression test:
+testing individal effect of each regressors
+correlation between each value and target
+f-test- linear dependency
+
+F-scores:
+how much features are linearly related
+
+Mutual info regression
+
+
+select kbest:
+which technique to used
+k features which can be used
+
+select percentile:
+how many features can be used
+
+select from model:
+model weights
+model_importance
+
+Recursive feature elimination:
+support vector regressor
+remove featres of least importance and optimize features 
+
+
+Composite estimators:
+pipeline and transformers to predict
+standard scaler
+manual process
+pipelines structured/created and then split data for better results\
+
+
+Transforming target in regression:
+if target and predictor are of dfferent class
+Transformedtargetresgressor
+
+Feature union:
+
+
